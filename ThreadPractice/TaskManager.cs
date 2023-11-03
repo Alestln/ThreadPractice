@@ -52,7 +52,7 @@ public class TaskManager
     {
         await Task.Delay(Random.Shared.Next(500));
         Console.WriteLine($"Current task: {counter}");
-        //return Task.CompletedTask;
+        // return Task.CompletedTask;
     }
 
     public async Task<List<char>> GetRandomSymbols()
