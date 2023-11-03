@@ -43,5 +43,6 @@ internal class Program
         //int[] randomNumbers = await taskManager.GetRandomNumbers();
         //var randomChars = await taskManager.GetRandomSymbols();
         taskManager.WritingFiles();
+        // А Олексій запізнився на роботу
     }
 }
